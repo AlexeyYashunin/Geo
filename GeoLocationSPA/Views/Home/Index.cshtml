@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="~/js/script.js"></script>
+        <link href="~/css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'IP')" id="defaultOpen">IP</button>
+            <button class="tablinks" onclick="openTab(event, 'City')">City</button>
+        </div>
+
+        <div id="IP" class="tabcontent">
+          <label for="ip_input">IP = </label>
+          <input type="text" id="ip_input">
+          <input type="button" for="ip_input" value="Search">
+          <div class="ip_result">
+            Result = 
+          </div>
+        </div>
+
+        <div id="City" class="tabcontent">
+          <label for="city_input">City = </label>
+          <input type="text" id="city_input">
+          <input type="button" for="city_input" value="Search">
+          <div class="city_result">
+            Result = 
+          </div>
+        </div>
+
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+        </body>
+<!--<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>-->
