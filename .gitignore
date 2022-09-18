@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/GeoBaseData/bin/Debug
+/GeoBaseData/obj/Debug
+/GeoLocationSPA/bin/Debug/netcoreapp3.1
+/GeoLocationSPA/obj/Debug/netcoreapp3.1
+/GeoLocationSPA/obj
+/GeoLocationSPA_WebApi/bin/Debug/netcoreapp3.1
+/GeoLocationSPA_WebApi/obj/Debug/netcoreapp3.1
+/GeoLocationSPA_WebApi/obj
