@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Database\geobase.dat" />
     <Compile Include="Controllers/HomeController.fs" />
     <Compile Include="Models/ErrorViewModel.fs" />
     <Compile Include="Startup.fs" />
@@ -14,5 +15,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.17" />
   </ItemGroup>
+
+  <ItemGroup />
 
 </Project>
